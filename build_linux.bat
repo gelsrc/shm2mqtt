@@ -2,7 +2,7 @@
 
 setlocal
 
-set GOPATH=W:\Gelicon\Source5\Привод-нефтесервис\Автомат\goshm
+rem set GOPATH=...
 
 set GOOS=linux
 set GOARCH=arm
