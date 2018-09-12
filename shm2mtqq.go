@@ -67,7 +67,7 @@ func tool() int {
 		shm = r
 	}
 
-	shm = shm[24:] // 23 = sizeof(pthread_mutex_t)
+	shm = shm[24:] // 24 = sizeof(pthread_mutex_t)
 
 	DEBUG.Printf("Use broker: %v", *broker)
 	DEBUG.Printf("Use tick: %v", *tickMs)
